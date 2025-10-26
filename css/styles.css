@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #ffffff;
 }
 
 h2,h3,h4,h5,h6 {
@@ -45,14 +46,15 @@ a{
 .main-logo {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
+    font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    line-height: 1.16667;
-    color: #2E2F42;
+    line-height: 1.17;
+    color: #4D5AE5;
 }
 
-.main-logo .fragment-logo-Web {
-    color: #4D5AE5;
+.main-logo .fragment-logo {
+    color: #2E2F42;
 }
 
 .nav-link {
@@ -72,8 +74,6 @@ a{
 }
 
 .welcome-section {
-    width: 1440px;
-    height: 600px;
     background-color: #2E2F42;
 }
 .welcome-section > h1{
@@ -86,15 +86,12 @@ a{
 }
 
 .welcome-section-button {
-    border-radius: 4px;
-    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     text-transform: capitalize;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
 }
 
@@ -106,17 +103,10 @@ a{
 
 .section-OurTeam .OurTeam-list-element {
     border: 1px solid #000;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #ffffff;
 }
 
 .classfooter {
-    width: 1440px;
-    height: 312px;
     background-color: #2E2F42;
 }
 .classfooter .main-logo {
