@@ -8,27 +8,6 @@ h2,h3,h4,h5,h6 {
     color: #2E2F42;
 
 }
-h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-h2{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-
-p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 ul {
     list-style-type: none;
@@ -101,28 +80,79 @@ a{
     color: #ffffff;
     text-transform: capitalize;
     background: #4D5AE5;
+    cursor: pointer;
 }
 
 .welcome-section-button:hover,
 .welcome-section-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /* .section-OurTeam {
     background-color: #F4F4FD;
 } */
 
-.section-OurTeam .OurTeam-list-element {
+.privileges-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.privileges-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-ourteam .ourteam-list-element {
+    background: #F4F4FD ;
+}
+
+.ourteam-title{
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-ourteam .ourteam-list-element {
     background: #ffffff;
+}
+
+.ourteam-list-element .text-list-ourteam{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.ourportfolio-title{
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.ourportfolio-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .classfooter {
     background-color: #2E2F42;
 }
-.classfooter .main-logo {
-    color: #F4F4FD;
+
+.classfooter .fragment-logo {
+    color: #F4F4FD ;
 }
-.classfooter p {
+
+.text-footer {    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
